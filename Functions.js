@@ -20,7 +20,6 @@ function isEven(number){
         return isEven(number -2)
     }
 
-console.log(isEven(50))
 
 // Bean Counting
 function countBs (string){
@@ -44,6 +43,6 @@ function countChar(string, letter){
     return noc
 }
 
-
+console.log(isEven(50))
 console.log(countBs("BOB"));
 console.log(countChar("kakkerlak", "k"));
